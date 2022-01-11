@@ -1,2 +1,2 @@
 # Wf_Forma
-A pseudo landing page for Warframe item "Forma"
+A landing page for Warframe item "Forma"
