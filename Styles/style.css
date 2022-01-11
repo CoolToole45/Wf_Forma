@@ -1,0 +1,152 @@
+/* Global Start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Global End */
+
+
+/* Main Product Start */
+.mainProduct {
+    background-image: url(../Img/39607.jpg);
+    font-family: "daggersquare";
+}
+
+.wrapper {
+    color: aliceblue;
+    margin: 0 5vw;
+}
+
+.logo img {
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin: 3vh 5vw;
+}
+
+.productImg img {
+    width: 100%;
+    margin: 5vh 0;
+}
+
+.title h1 {
+    padding: 2vh 0;
+    font-size: 4vh;
+}
+/* Main Product End */
+
+
+/* Key Benefits Start */
+.keyBenefits {
+    padding: 2vh;
+    background-color: burlywood;
+    font-family: "daggersquare";
+}
+
+.benefit {
+    margin: 2vh 0;
+}
+
+.benefit img {
+    width: 100%;
+}
+
+.benefit h2 {
+    margin: 1vh 0;
+    font-size: 2.5vh;
+}
+/* Key Benefits End */
+
+
+/* filloutForm Start */
+.filloutForm {
+    background-color: aquamarine;
+    font-family: "daggersquare";
+    padding: 2vh;
+}
+
+.formTitle {
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.formTitle p {
+    margin: 2vh 0;
+}
+
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formGroup {
+    margin: 2vh 0;
+}
+
+.formGroup input {
+    font-family: "daggersquare";
+    padding: 2vh 15vw 2vh 5vw;
+    outline: none;
+}
+
+.submitBtn {
+    margin: 2vh 0 0;
+    background-color: rgb(148, 0, 0);
+    color: aqua;
+    font-family: "daggersquare";
+    border: 2px solid red;
+    border-radius: 25%;
+    padding: 2vh 11vw;
+}
+/* filloutForm End */
+
+
+/* reviews Start */
+.reviews {
+    padding: 2vh;
+    font-family: "daggersquare";
+    background-color: cornflowerblue;
+}
+
+.reviews h3 {
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 2vh;
+    border-bottom: 2px solid red;
+}
+
+.reviewComment {
+    margin: 5vh 0;
+    border: 2px solid red;
+    padding: 2vh;
+}
+
+.reviewerInfo {
+    margin: 2vh 0 1vh;
+}
+/* reviews End */
+
+
+/* footer Start */
+footer {
+    background-color: indianred;
+}
+
+.copyrightInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "daggersquare";
+    padding: 2vh 0;
+}
+
+.copyrightInfo img {
+    width: 20%;
+}
+
+.legalStuff a {
+    color: beige;
+}
+/* footer End */
