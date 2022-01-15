@@ -1,3 +1,31 @@
 @media (min-width:992px) {
-    
+    .wrapper {
+        display: flex;
+        align-items: center;
+        margin: 0 7vw;
+    }
+
+    .productImg {
+        width: 40%;
+        margin: 10vh 12vw 6vw 0;
+    }
+
+    .description {
+        width: 70%;
+    }
+
+    .benefit {
+        display: flex;
+        border: 2px dashed red;
+        margin: 10vh 10vw;
+    }
+
+    .benefitInfo {
+        
+    }
+
+    .benefit img {
+        width: 25%;
+        border: 2px dashed yellow;
+    }
 }
