@@ -34,27 +34,40 @@
     padding: 2vh 0;
     font-size: 4vh;
 }
+
+.forma {
+    background: linear-gradient(to right, rgb(192, 192, 192), gold,lightblue);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 /* Main Product End */
 
 
 /* Key Benefits Start */
 .keyBenefits {
     padding: 2vh;
-    background-color: burlywood;
+    background-color: rgb(33, 39, 41);
     font-family: "daggersquare";
 }
 
 .benefit {
     margin: 2vh 0;
+    border: 2px solid black;
+    background: linear-gradient(45deg, grey, rgb(85, 85, 85), rgb(168, 166, 166));
 }
 
 .benefit img {
     width: 100%;
 }
 
-.benefit h2 {
+.benefitInfo {
+    padding: 0.4vh;
+}
+
+.benefitInfo h2 {
     margin: 1vh 0;
     font-size: 2.5vh;
+    background: linear-gradient(45deg, grey, rgb(75, 75, 75), pink);
 }
 /* Key Benefits End */
 
@@ -89,6 +102,11 @@
     font-family: "daggersquare";
     padding: 2vh 15vw 2vh 5vw;
     outline: none;
+}
+
+.submitBtnDiv {
+    display: flex;
+    justify-content: center;
 }
 
 .submitBtn {

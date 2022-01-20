@@ -10,22 +10,43 @@
         margin: 10vh 12vw 6vw 0;
     }
 
+    .productImg:hover {
+        transform: scale(170%);
+        transition: all 1s ease-in-out;
+    }
+
     .description {
         width: 70%;
     }
 
     .benefit {
         display: flex;
-        border: 2px dashed red;
         margin: 10vh 10vw;
     }
 
     .benefitInfo {
-        
+        margin: 2vh 0 2vh 2vw;
     }
 
-    .benefit img {
-        width: 25%;
-        border: 2px dashed yellow;
+    .benefitInfo h2 {
+        font-size: 4vh;
+    }
+
+    .benefitInfo p {
+        font-size: 2.5vh;
+    }
+
+    .benefitImg {
+        border: 2px solid yellow;
+        background-color: yellow;
+        display: block;
+    }
+
+    .mainForm {
+        flex-direction: row;
+    }
+
+    .formGroup input {
+        padding: 0;
     }
 }
