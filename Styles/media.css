@@ -19,6 +19,10 @@
         width: 70%;
     }
 
+    .description p {
+        font-size: 2.1vh;
+    }
+
     .benefit {
         display: flex;
         margin: 10vh 10vw;
@@ -29,7 +33,7 @@
     }
 
     .benefitInfo h2 {
-        font-size: 4vh;
+        font-size: 5vh;
     }
 
     .benefitInfo p {
@@ -43,10 +47,59 @@
     }
 
     .mainForm {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 0fr 0fr;
+        justify-content: center;
     }
 
     .formGroup input {
-        padding: 0;
+        padding: 3vh 5vw 3vh 1vw;
+        margin: 1vh 3vw;
+        border: 2px solid rgb(61, 61, 61);
+        font-size: 2vh;
+    }
+
+    .submitBtn {
+        font-size: 2vh
+    }
+
+    .reviewWrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .reviewsTitle {
+        display: flex;
+        justify-content: center;
+    }
+
+    .reviewsTitle h3 {
+        font-size: 2.5vh;
+        width: 40%;
+    }
+
+    .reviewComment {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    .reviewComment p,
+    .reviewComment span {
+        font-size: 2vh;
+    }
+
+    .reviewerInfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reviewerInfo img {
+        width: 10%;
+    }
+
+    .copyrightInfo img {
+        width: 5%;
     }
 }

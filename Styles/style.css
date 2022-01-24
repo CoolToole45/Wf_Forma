@@ -67,14 +67,17 @@
 .benefitInfo h2 {
     margin: 1vh 0;
     font-size: 2.5vh;
-    background: linear-gradient(45deg, grey, rgb(75, 75, 75), pink);
+    background: linear-gradient(to right, rgb(192, 192, 192), gold,lightblue);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
 }
 /* Key Benefits End */
 
 
 /* filloutForm Start */
 .filloutForm {
-    background-color: aquamarine;
+    background-color: rgb(209, 228, 224);
     font-family: "daggersquare";
     padding: 2vh;
 }
@@ -111,12 +114,10 @@
 
 .submitBtn {
     margin: 2vh 0 0;
-    background-color: rgb(148, 0, 0);
-    color: aqua;
+    background-color: rgb(255, 238, 142);
     font-family: "daggersquare";
-    border: 2px solid red;
     border-radius: 25%;
-    padding: 2vh 11vw;
+    padding: 2vh 4vw;
 }
 /* filloutForm End */
 
@@ -125,19 +126,21 @@
 .reviews {
     padding: 2vh;
     font-family: "daggersquare";
-    background-color: cornflowerblue;
+    background-color: rgb(141, 141, 141);
 }
 
-.reviews h3 {
+.reviewsTitle h3 {
     text-align: center;
     margin-bottom: 2vh;
     font-size: 2vh;
-    border-bottom: 2px solid red;
+    border-bottom: 10px solid rgb(40, 124, 202);
+    border-radius: 30%;
 }
 
 .reviewComment {
     margin: 5vh 0;
     border: 2px solid red;
+    background-color: rgb(109, 167, 221);
     padding: 2vh;
 }
 
@@ -149,7 +152,7 @@
 
 /* footer Start */
 footer {
-    background-color: indianred;
+    background-color: rgb(58, 58, 58);
 }
 
 .copyrightInfo {
@@ -165,6 +168,6 @@ footer {
 }
 
 .legalStuff a {
-    color: beige;
+    color: rgb(156, 156, 156);
 }
 /* footer End */
