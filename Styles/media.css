@@ -10,11 +10,6 @@
         margin: 10vh 12vw 6vw 0;
     }
 
-    .productImg:hover {
-        transform: scale(170%);
-        transition: all 1s ease-in-out;
-    }
-
     .description {
         width: 70%;
     }
@@ -34,14 +29,17 @@
 
     .benefitInfo h2 {
         font-size: 5vh;
+        margin: 0.5vw;
     }
 
     .benefitInfo p {
         font-size: 2.5vh;
+        padding: 1.1vh;
+        line-height: 1.6;
     }
 
     .benefitImg {
-        border: 2px solid yellow;
+        border: 2px solid rgb(204, 190, 190);
         background-color: yellow;
         display: block;
     }
@@ -60,7 +58,7 @@
     }
 
     .submitBtn {
-        font-size: 2vh
+        font-size: 3vh
     }
 
     .reviewWrapper {
@@ -83,6 +81,8 @@
         flex-direction: column;
         justify-content: space-between;
         width: 30%;
+        background-size: 175%;
+        background-position: 50% 50%;
     }
 
     .reviewComment p,
